@@ -11,6 +11,7 @@
 ## 二、微调工具
 
 llama-factory是一个易于使用的大规模语言模型微调框架，它支持很多种开源大语言模型且支持多种训练方法。llama-factory的使用形式分为指令与界面两种，允许用户通过内置的Web UI灵活定制微调，而无需编写代码。通过配置文件设置一系列训练参数，使用llama-factory启动微调过程。在微调过程中，llama-factory将自动处理模型的前向传播、反向传播、权重更新等步骤。
+![img](https://github.com/heymimihere/my_work/blob/main/data/images/image-1.png)
 
 ## 三、模型结构
 
