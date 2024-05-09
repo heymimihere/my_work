@@ -1,7 +1,5 @@
 # 基于Llama3微调心理抚慰模型
 
-[TOC]
-
 ## 一、概述
 
 本对话系统基于Llama3预训练模型，并基于LORA进行指令监督微调（SFT）使其专注于心理抚慰领域。系统通过transformers库加载Llama3模型和tokenizer，并使用peft库加载并合并LORA微调模型。用户通过文本输入进行交互，该对话系统可以根据用户的输入生成相应的心理抚慰建议。
@@ -43,14 +41,14 @@ Tokenizer用于将文本输入转换为模型可以理解的token IDs，使用�
 
 将整个数据集划分为训练集和验证集，其中验证集占总数据集的10%。训练后在验证集上验证模型，以检查模型的泛化能力。在验证阶段，在每个训练周期结束后，记录并输出训练集上的损失、验证集上的损失。这些指标会被记录并输出。
 
-![img](file:///C:\Users\14353\AppData\Local\Temp\ksohtml28516\wps1.jpg)![img](file:///C:\Users\14353\AppData\Local\Temp\ksohtml28516\wps2.jpg) 
+![img](https://github.com/heymimihere/my_work/blob/main/data/images/image-2.jpg)![img](https://github.com/heymimihere/my_work/blob/main/data/images/image-3.jpg) 
 
 ## 六、使用实例
 
 以下是一个简单的使用示例，展示了用户与系统之间的对话流程。
 
-![img](file:///C:\Users\14353\AppData\Local\Temp\ksohtml28516\wps3.jpg) 
+![img](https://github.com/heymimihere/my_work/blob/main/data/images/image-4.jpg)
 
-![img](file:///C:\Users\14353\AppData\Local\Temp\ksohtml28516\wps4.jpg) 
+![img](https://github.com/heymimihere/my_work/blob/main/data/images/image-5.jpg)
 
  
